@@ -8,8 +8,6 @@ fs.appendFile('my-file.txt', 'Файл создан Node.js', (err) => {
   console.log('Файл сохранен')
 })
 
-
-
 setTimeout(() => {
   console.log('Конец')
 }, 30000)
